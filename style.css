@@ -1,0 +1,101 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+#tempo {
+  font-size: 8em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#startStopButton {
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#startStopButton:hover {
+  background-color: #3e8e41;
+}
+
+#taptempo {
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#noteDurationButton {
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #3e8e41;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;}
+
+#incTempoButton, #decTempoButton, #incTempoByFiveButton, #decTempoByFiveButton, #incTempoByOneButton, #decTempoByOneButton, #doubleNoteDurationButton, #halveNoteDurationButton {
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#incTempoButton:hover, #decTempoButton:hover, #incTempoByFiveButton:hover, #decTempoByFiveButton:hover, #incTempoByOneButton:hover, #decTempoByOneButton:hover, #doubleNoteDurationButton:hover, #halveNoteDurationButton:hover {
+  background-color: #ccc;
+}
+
+.left {
+  position: relative;
+  left: 0;
+  top: 200px;
+  text-align: right;
+}
+
+.right {
+  position: relative;
+  right: 0;
+  top: 200px;
+  text-align: left;
+}
+
+.arrow {
+  width: 1em;
+  display: inline-block;
+  text-align: center;
+}
+
+.shortcuts {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.shortcuts li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.shortcuts li:before {
+  content: "• ";
+  color: #4CAF50;
+}

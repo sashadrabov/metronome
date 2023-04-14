@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Easy Metronome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">EASY METRONOME<br>2.0</h1>
+
+        <div class="tempo-container">
+            <div class="tempo-display">
+                <p class="tempo-label"></p>
+                <p class="tempo-value"><span id="tempo">60</span></p>
+            </div>
+            <div class="buttons-container">
+                <button id="startStopButton" class="big-button">START</button>
+                <button id="taptempo" class="small-button">TAP</button>
+            </div>
+        </div>
+
+        <div class="controls-container">
+            <div class="decrement-buttons">
+                <button id="decTempoByOneButton"><i class="arrow-left"></i> -1</button>
+                <button id="decTempoButton"><i class="arrow-left"></i><i class="arrow-left"></i> -10</button>
+                <button id="decTempoByFiveButton"><i class="arrow-left"></i> -5</button>
+            </div>
+            <div class="increment-buttons">
+                <button id="incTempoByOneButton">+1 <i class="arrow-right"></i></button>
+                <button id="incTempoButton">+10 <i class="arrow-right"></i><i class="arrow-right"></i></button>
+                <button id="incTempoByFiveButton">+5 <i class="arrow-right"></i></button>
+            </div>
+            <div class="duration-buttons">
+                <button id="doubleNoteDurationButton">x2</button>
+                <button id="halveNoteDurationButton">x0.5</button>
+                <button id="noteDurationButton">1/4</button>
+            </div>
+        </div>
+
+        <ul class="shortcuts">
+            <li>start/stop SPACE</li>
+            <li>tap tempo ENTER</li>
+            <li>-10 &#8592;</li>
+            <li>+10 &#8594;</li>
+            <li>-5 ctrl&#8592;</li>
+            <li>+5 ctrl&#8594;</li>
+            <li>-1 shift&#8592;</li>
+            <li>+1 shift&#8594;</li>
+            <li>x0.5 &#8595;</li>
+            <li>x2 &#8593;</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
